@@ -1,7 +1,7 @@
 db_config:
   type: pgx
   user: crowdsec
-  password: "NfWdKd#tqC$DyL632Rci" ##DO NOT REUSE MY PASSOWRD SEE README
+  password: "NfWdKdtqCDyL632Rci" ##DO NOT REUSE MY PASSOWRD SEE README
   db_name: crowdsec
   host: 127.0.0.1
   port: 5432
