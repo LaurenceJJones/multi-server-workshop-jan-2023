@@ -1,7 +1,7 @@
 db_config:
   type: pgx
   user: crowdsec
-  password: "NfWdKd#tqC$DyL632Rci" ##DO NOT REUSE MY PASSOWRD SEE BELOW
+  password: "NfWdKd#tqC$DyL632Rci" ##DO NOT REUSE MY PASSOWRD SEE README
   db_name: crowdsec
   host: 127.0.0.1
   port: 5432
@@ -11,5 +11,3 @@ db_config:
 api:
   server:
     use_forwarded_for_headers: true
-
-##generate a random password using -> `< /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c${1:-20};echo;` (change 20 to increase or decrease length)
