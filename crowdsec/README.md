@@ -10,6 +10,8 @@ If you want to make the password longer or shorter alter the `20` in the command
 
 ## Postgresql command
 
+On ubuntu there a dedicated postgres user so you must switch before you can access postgres `sudo -i --u postgres`
+
 ```
 postgres=# CREATE DATABASE crowdsec;
 postgres=# CREATE USER crowdsec WITH PASSWORD 'INSERTYOURRANDOMGENEREATEDPASSWORDHERE';
@@ -22,3 +24,7 @@ postgres=# ALTER USER crowdsec WITH PASSWORD 'INSERTYOURRANDOMGENEREATEDPASSWORD
 ```
 
 and if you still mess that up then I cant help you :wink:
+
+#### migrate.deb.sh
+
+A helper script that can transfer sqlite to postgresql with all current decisions
