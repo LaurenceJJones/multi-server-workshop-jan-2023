@@ -1,3 +1,4 @@
+##Only tested on ubuntu systems
 sudo apt install postgresql postgresql-contrib -y
 sudo systemctl start postgresql.service
 TEMP_DIR=$(mktemp -d)
