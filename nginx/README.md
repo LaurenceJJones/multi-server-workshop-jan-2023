@@ -1,6 +1,6 @@
 ## Nginx config
 
-Here is the nginx configuration file used within the workshop. These files are made for a debian base system, if you intend to use on RPM you may need to change the **user** property before deploying.
+Here is the nginx configuration file used within the workshop. These files are made for a debian based system, if you intend to use on RPM you may need to change the **user** property before deploying.
 
 #### Tips and tricks
 
