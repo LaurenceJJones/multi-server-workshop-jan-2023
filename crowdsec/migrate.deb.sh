@@ -14,9 +14,9 @@ echo "db_config:
   flush:
     max_items: 20000
     max_age: 30d
-api:
-  server:
-    use_forwarded_for_headers: true" > /etc/crowdsec/config.yaml.local
+#api:
+  #server:
+    #use_forwarded_for_headers: true" > /etc/crowdsec/config.yaml.local
 sleep 5
 sudo -i -u postgres psql -c "CREATE DATABASE crowdsec;"
 sudo -i -u postgres psql -c "CREATE USER crowdsec WITH PASSWORD '$RANDOM_PASS';"
